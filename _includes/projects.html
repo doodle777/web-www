@@ -2,22 +2,38 @@
   <h2> {{site.user_description}} </h2>
 </div>
 <div class="user-projects">
+  <div class="images-left">
+    <a href="http://blog.duanxu.science">
+        <img alt="blog" src="{{ "/assets/img/blog.png" | prepend: site.baseurl }}"/>
+    </a>
+  </div>
+  <div class="contents-right">
+    <h3> Blog </h3>
+    <p></p>
+    <a class="project-link" href="http://blog.duanxu.science">Check it out</a>
+  </div>
+</div>
+<div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+    <a href="{{site.url_github}}">
+        <img alt="github" src="{{ "/assets/img/github.png" | prepend: site.baseurl }}"/>
+    </a>
   </div>
   <div class="contents">
     <h3> Github </h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="https://github.com/doodle777">Check it out</a>
+    <p></p>
+    <a class="project-link" href="{{site.url_github}}">Check it out</a>
   </div>
 </div>
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+    <a href="{{site.url_bilibili}}">
+        <img alt="bilibili" src="{{ "/assets/img/bilibili.png" | prepend: site.baseurl }}"/>
+    </a>
   </div>
   <div class="contents-right">
     <h3> Bilibili </h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="https://space.bilibili.com/3039861/#/">Check it out</a>
+    <p></p>
+    <a class="project-link" href="{{site.url_bilibili}}">Check it out</a>
   </div>
 </div>
